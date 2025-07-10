@@ -107,8 +107,8 @@ span {
 .sign-up {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     padding: 20px 100px;
    -webkit-box-shadow: 7px 3px 6px 0px rgba(0,0,0,0.2); 
     box-shadow: 7px 3px 6px 0px rgba(0,0,0,0.2);
@@ -118,6 +118,13 @@ span {
     color:rgb(61, 61, 61);
 }
 
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+}
+
 h2 {
     padding: 20px 0px;
     margin-left: -30px;
@@ -125,11 +132,12 @@ h2 {
 
 form {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    width: 600px;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
 }
-
 label {
     display: flex;
     flex-direction: column;
