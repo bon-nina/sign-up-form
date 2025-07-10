@@ -189,3 +189,4 @@ input:focus {
 input[type="password"]:invalid {
     border: 1px solid red;
 }
+
